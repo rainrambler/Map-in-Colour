@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="@string/selectLayer">
+        <menu>
+            <item
+                android:id="@+id/nav_eat"
+                android:icon="@drawable/ic_1"
+                android:title="@string/eat"
+                />
+            <item
+                android:id="@+id/nav_buy"
+                android:icon="@drawable/ic_2"
+                android:title="@string/buy"
+                />
+            <item
+                android:id="@+id/nav_art"
+                android:icon="@drawable/ic_3"
+                android:title="@string/culture"/>
+            <item
+                android:id="@+id/nav_relax"
+                android:icon="@drawable/ic_4"
+                android:title="@string/club"/>
+            <item
+                android:id="@+id/nav_transport"
+                android:icon="@drawable/ic_5"
+                android:title="@string/transport"/>
+            <item
+                android:id="@+id/nav_hospital"
+                android:icon="@drawable/ic_6"
+                android:title="@string/hospital"/>
+            <item
+                android:id="@+id/nav_bank"
+                android:icon="@drawable/ic_7"
+                android:title="@string/bank"/>
+            <item
+                android:id="@+id/nav_wc"
+                android:icon="@drawable/ic_8"
+                android:title="@string/wc"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Map in colour</string>
+    <string name="title_activity_maps">Map in colour</string>
+    <string name="title_help">How does it work</string>
+
+
+    <string name="menu_item_01">Help</string>
+    <string name="menu_item_02">Info</string>
+
+    <string name="selectLayer">Select layers</string>
+
+
+    <string name="eat">Eat&amp;Drink</string>
+    <string name="buy">Buy&amp;Buy</string>
+    <string name="culture">Art&amp;Culture</string>
+    <string name="club">Entertain&amp;Nightlife</string>
+    <string name="transport">Come&amp;Go</string>
+    <string name="hospital">Hospital&amp;Pharmacy</string>
+    <string name="bank">Bank&amp;Exchange</string>
+    <string name="wc">Pee&amp;Poo</string>
+
+    <string name="eat_d">All the places where you can eat and drink.</string>
+    <string name="buy_d">All the shops, shopping centres, supermarkets, and commercial centres.</string>
+    <string name="culture_d">Everything that is related to the culture. Museum, theatre, art centre...</string>
+    <string name="club_d">Places where you can chill. Nightclub, casino...</string>
+    <string name="transport_d">Transportation related. Bus stations, tram station and bicycle rental shop...</string>
+    <string name="hospital_d">Hospital, dentist, pharmacy...</string>
+    <string name="bank_d">Bank, ATM, exchange station.</string>
+    <string name="wc_d">WC, toilet.</string>
+
+
+
+</resources>

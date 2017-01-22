@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Custom Map</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+
+    <style>
+        html,
+        body {
+              padding: 0;
+              margin: 0;
+              height: 100%;
+              width: 100%;
+              }
+        #map {
+              width: 100%;
+              height: 100%;
+              }
+    </style>
+
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+    var map = L.map('map', {center: [51.051877, 13.741517],zoom: 15});
+    var basemap = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy7mh2nk001r2rl9d1daz1jw/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+
+     basemap.addTo(map);
+
+
+    function relocation(i,j){
+        var london = new L.LatLng(i,j);
+        map.setView(london, 17);
+    }
+
+
+
+
+    var layer1 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy77j5ok000p2roopjnsgrxl/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer2 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy7nsjte001w2rodwjkq829h/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer3 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy785cvl000n2rocxpqzirj5/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer4 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy782p1n000s2rodowy0e9e8/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer5 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy8tpfpb003k2rl9dswqxe2c/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer6 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy5z2cvn00572sqi7f3crz3h/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer7 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy5yuk7z006b2rpb3hh9qe2j/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+    var layer8 = L.tileLayer('https://api.mapbox.com/styles/v1/eden107/ciy5z0jrh00562sqi6njd7yjf/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRlbjEwNyIsImEiOiJjaXdtMnl5aDYwMDBhMm5tdHV2M3JvYjN2In0.q6DngKEYuQJtBIMWDlNucw',
+        {
+            id: 'mapbox.streets'
+        });
+
+    function addlayer1(){
+        layer1.addTo(map);
+    }
+
+    function removelayer1(){
+         map.removeLayer(layer1);
+    }
+    function addlayer2(){
+        layer2.addTo(map);
+    }
+    function removelayer2(){
+         map.removeLayer(layer2);
+    }
+    function addlayer3(){
+        layer3.addTo(map);
+    }
+    function removelayer3(){
+         map.removeLayer(layer3);
+    }
+    function addlayer4(){
+        layer4.addTo(map);
+    }
+    function removelayer4(){
+         map.removeLayer(layer4);
+    }
+    function addlayer5(){
+        layer5.addTo(map);
+    }
+    function removelayer5(){
+         map.removeLayer(layer5);
+    }
+    function addlayer6(){
+        layer6.addTo(map);
+    }
+    function removelayer6(){
+         map.removeLayer(layer6);
+    }
+    function addlayer7(){
+        layer7.addTo(map);
+    }
+    function removelayer7(){
+         map.removeLayer(layer7);
+    }
+    function addlayer8(){
+        layer8.addTo(map);
+    }
+    function removelayer8(){
+         map.removeLayer(layer8);
+    }
+
+</script>
+
+</body>
+</html>

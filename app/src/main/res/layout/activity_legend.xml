@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/activity_legend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.kaidi.colourmap1.LegendActivity"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/second_toolbar"
+            toolbar:title="@string/title_help"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent"
+            android:elevation="4dp"
+            toolbar:navigationIcon="@drawable/ic_action_previous_item"
+            app:theme="@style/ToolbarTheme"
+            toolbar:titleTextColor="@color/colorWhite"/>
+
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:padding="10dip">
+            <TableRow>
+                <TextView android:text="@string/eat"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/eat_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/buy"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/buy_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/culture"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/culture_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/club"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/club_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/transport"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/transport_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/hospital"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/hospital_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="@string/bank"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/bank_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="@string/wc"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/wc_d"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text=" "/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
