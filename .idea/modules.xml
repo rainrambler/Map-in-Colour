@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mobile_Map_In_Colour.iml" filepath="$PROJECT_DIR$/Mobile_Map_In_Colour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map-in-Colour.iml" filepath="$PROJECT_DIR$/Map-in-Colour.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
