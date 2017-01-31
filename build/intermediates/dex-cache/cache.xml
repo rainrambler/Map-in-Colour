@@ -430,7 +430,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="c795693ab1667a622f8911f78be96348954a3fdb">
+        sha1="16b8e8fa1a5b619c2676d79e803c78143c588d00">
         <dex dex="C:\Users\kaidi\Documents\GitHub\Map-in-Colour\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d2403f5efc164b06c1bd2af667d2d2b51dbd42b\classes.dex" />
     </item>
     <item
@@ -484,7 +484,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="cb539494f2ff4a0a25450b0395971411d57c7fef">
+        sha1="ac150609687e3fa63bfc9dc986442f7f32541344">
         <dex dex="C:\Users\kaidi\Documents\GitHub\Map-in-Colour\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dc564915e152383a4d47853f9f4d607cbaa012fb\classes.dex" />
     </item>
     <item
