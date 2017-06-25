@@ -7,17 +7,17 @@ Use different colour as class of buildings, give a hint on where should you go t
 
 ![image](https://github.com/Sublunarwind/Map-in-Colour/raw/master/screen1.png)
 
-###Side bar give you 8 different layers to choose.
+## Side bar give you 8 different layers to choose.
 
 
 ![image](https://github.com/Sublunarwind/Map-in-Colour/raw/master/screen2.png)
 
-###All the POI will be displayer as small coloured dots in the map.
+## All the POI will be displayer as small coloured dots in the map.
 
 
 ![image](https://github.com/Sublunarwind/Map-in-Colour/raw/master/screen3.png)
 
-###Help button give a more into detail explain on each layer objects.
+## Help button give a more into detail explain on each layer objects.
 
 
 Until 22.1.2017
