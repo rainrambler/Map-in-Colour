@@ -113,105 +113,87 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
-                switch (item.getItemId()){
-                    case R.id.nav_eat:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer1()");
+                int curID = item.getItemId();
+                if (curID == R.id.nav_eat) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer1()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer1()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer1()");
 
-                        }
-                        break;
+                    }
+                } else if (curID == R.id.nav_buy) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer2()");
 
-                    case R.id.nav_buy:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer2()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer2()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer2()");
+                    }
+                } else if (curID == R.id.nav_art) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer3()");
 
-                        }
-                        break;
-                    case R.id.nav_art:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer3()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer3()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer3()");
+                    }
+                } else if (curID == R.id.nav_relax) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer4()");
 
-                        }
-                        break;
-                    case R.id.nav_relax:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer4()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer4()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer4()");
+                    }
+                } else if (curID == R.id.nav_transport) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer5()");
 
-                        }
-                        break;
-                    case R.id.nav_transport:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer5()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer5()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer5()");
+                    }
+                } else if (curID == R.id.nav_hospital) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer6()");
 
-                        }
-                        break;
-                    case R.id.nav_hospital:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer6()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer6()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer6()");
+                    }
+                } else if (curID == R.id.nav_bank) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer7()");
 
-                        }
-                        break;
-                    case R.id.nav_bank:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer7()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer7()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer7()");
+                    }
+                } else if (curID == R.id.nav_wc) {
+                    if (item.isChecked()) {
+                        item.setChecked(false);
+                        webView.loadUrl("javascript:removelayer8()");
 
-                        }
-                        break;
-                    case R.id.nav_wc:
-                        if (item.isChecked()){
-                            item.setChecked(false);
-                            webView.loadUrl("javascript:removelayer8()");
+                    } else {
+                        item.setChecked(true);
+                        webView.loadUrl("javascript: addlayer8()");
 
-                        }
-                        else{
-                            item.setChecked(true);
-                            webView.loadUrl("javascript: addlayer8()");
-
-                        }
-                        break;
-
+                    }
                 }
 
 
